@@ -1,0 +1,43 @@
+.sect2 {
+    width: 100%;
+    background-color: #eff1f7;
+    position: relative;
+
+    .section2 {
+        z-index: 999;
+        border-radius: 10px;
+        position: absolute;
+        background-color: rgb(80, 49, 100);
+        top: -50px;
+        left: 150px;
+        padding:40px 50px;
+        width: 80%;
+
+        form{
+            input{
+                margin-right: 10px;
+                width: 400px;
+                
+                padding: 10px 20px;
+                border-radius: 10px;
+                color: black;
+                font-weight: 600;
+                font-size: 18px;
+                border: #eff1f7;
+                background-color: #eff1f7;
+            }
+            button{
+                border-radius: 10px;
+                padding: 10px 30px;
+                background-color: #6adddd;
+                border: 1px solid #6adddd;
+                font-size: 18px;
+                font-weight: 600;
+                margin-left: 30px;
+            }
+        }
+
+
+    }
+
+}

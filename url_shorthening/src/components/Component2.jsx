@@ -2,7 +2,6 @@ import axios from 'axios';
 import React, { useContext} from 'react'
 import { MainContext } from '../context/ContextProvider';
 import "./../assets/scss/_component2.scss"
-import { useForm } from "react-hook-form";
 function Component2() {
     const { description, setDescription, name, setName } = useContext(MainContext);
 

@@ -1,8 +1,13 @@
 import React from 'react'
+import { Helmet, HelmetProvider } from 'react-helmet-async'
 
 function Features() {
     return (
-        <div>Features</div>
+        <HelmetProvider>
+            <Helmet>
+                <title>Features</title>
+            </Helmet>
+        </HelmetProvider>
     )
 }
 

@@ -41,7 +41,6 @@ function Component2() {
                 <form action="" onSubmit={(e) => handleSubmit(e)}>
                     <input onChange={nameChange} type="text" value={name} placeholder="Enter Name" required />
                     <input onChange={descriptionChange} type="text" value={description} placeholder="Enter Description" required />
-                    <input type="number"  />
                     <button>Post !</button>
                 </form>
             </div>

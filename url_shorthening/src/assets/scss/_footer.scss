@@ -1,0 +1,41 @@
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 70px 50px;
+
+        span {
+            font-weight: 900;
+            font-size: 25px;
+            letter-spacing: 3px;
+        }
+        .links{
+            display: flex;
+            gap: 100px;
+
+            ul{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+            .icons{
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+                li{
+                    font-size: 30px;
+                }
+            }
+            
+        }
+    }
+}
+li:hover{
+    color:  hsl(180, 66%, 49%)
+}
